@@ -1,0 +1,10 @@
+# Java client for link:https://github.com/uber/jaeger/blob/master/cmd/query/app/handler.go[Jaeger REST API]
+
+```java
+JaegerRestClient client = JaegerRestClient.builder()
+    .uri("http://localhost:16686")
+    .build();
+
+client.trace().....
+client.utils().....
+```
