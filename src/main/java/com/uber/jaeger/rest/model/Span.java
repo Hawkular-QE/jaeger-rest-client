@@ -15,6 +15,7 @@ import lombok.ToString;
 public class Span {
     private String traceID;
     private String spanID;
+    private List<Reference> references;
     private String operationName;
     private Long startTime;
     private Long duration;
