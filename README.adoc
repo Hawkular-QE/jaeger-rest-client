@@ -1,4 +1,6 @@
-# Java REST client for link:https://github.com/uber/jaeger/blob/master/cmd/query/app/handler.go[Jaeger REST API]
+# THIS REPOSITORY IS DEPRECATED with https://github.com/Hawkular-QE/jaeger-java-test
+
+## Java REST client for link:https://github.com/uber/jaeger/blob/master/cmd/query/app/handler.go[Jaeger REST API]
 
 ```java
 JaegerRestClient client = JaegerRestClient.builder()
